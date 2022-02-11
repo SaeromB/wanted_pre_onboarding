@@ -1,10 +1,9 @@
-import Toggle from './component/Toggle';
+import Modal from './component/Modal';
 
 function App() {
   return (
     <>
-      <div className="bg-gray-800 text-3xl font-bold underline">Hello world!</div>
-      <Toggle />
+      <Modal />
     </>
   );
 }
