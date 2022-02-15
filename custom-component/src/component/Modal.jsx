@@ -3,17 +3,17 @@ import React, { useState } from 'react';
 const Modal = () => {
   const [open, setOpen] = useState(false);
 
-  const switchModal = () => {
+  const openModal = () => {
     setOpen((open) => !open);
   };
-  const handleModalClose = () => {
-    switchModal();
+  const handleModalDelete = () => {
+    openModal();
   };
 
   return (
     <>
       <div className="flex items-center justify-center">
-        <button className="w-32 h-16 bg-primary-color rounded-full p-2" onClick={switchModal}>
+        <button className="w-32 h-16 bg-primary-color rounded-full p-2" onClick={openModal}>
           <div className="text-white">Open Modal</div>
         </button>
       </div>
@@ -24,7 +24,7 @@ const Modal = () => {
             <div className="relative  bg-white z-10 rounded-xl">
               <div
                 className="flex items-center justify-center text-lg font-semibold	"
-                onClick={handleModalClose}>
+                onClick={handleModalDelete}>
                 x
               </div>
               <div className="flex items-center justify-center px-52 py-20">
@@ -34,7 +34,7 @@ const Modal = () => {
           </div>
         </div>
       ) : null}
-      {/* <button className="flex items-center justify-center" onClick={switchModal}>
+      {/* <button className="flex items-center justify-center" onClick={openModal}>
         Sample
       </button> */}
     </>
