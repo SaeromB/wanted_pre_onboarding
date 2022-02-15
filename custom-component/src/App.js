@@ -1,7 +1,13 @@
-import Toggle from './component/Toggle';
+import Tag from './component/Tag';
 
 function App() {
-  return <Toggle />;
+  return (
+    <>
+      <Tag />
+      <Toggle />
+    </>
+  );
+
 }
 
 export default App;
