@@ -4,8 +4,10 @@ function App() {
   return (
     <>
       <Tab />
+     <Toggle />
     </>
   );
+
 }
 
 export default App;
