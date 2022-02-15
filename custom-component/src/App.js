@@ -4,8 +4,10 @@ function App() {
   return (
     <>
       <Tag />
+      <Toggle />
     </>
   );
+
 }
 
 export default App;
