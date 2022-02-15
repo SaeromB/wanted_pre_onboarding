@@ -1,14 +1,20 @@
-import { AutoComplete } from './component/AutoComplete';
+import  AutoComplete from './component/AutoComplete';
 import Toggle from './component/Toggle';
+import Modal from './component/Modal';
+import Tab from './component/Tab';
+import Toggle form './component/Toggle';
 
 function App() {
   return (
     <>
-      <div className="bg-gray-800 text-3xl font-bold underline">Hello world!</div>
       <Toggle />
       <AutoComplete />
+     <Modal />
+     <Tab />
+     <Toggle />
     </>
   );
+
 }
 
 export default App;
