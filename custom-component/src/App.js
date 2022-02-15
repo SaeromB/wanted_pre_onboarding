@@ -1,9 +1,12 @@
+import Modal from './component/Modal';
 import Tab from './component/Tab';
+import Toggle form './component/Toggle';
 
 function App() {
   return (
     <>
-      <Tab />
+     <Modal />
+     <Tab />
      <Toggle />
     </>
   );
