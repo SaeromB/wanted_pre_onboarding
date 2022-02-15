@@ -5,6 +5,11 @@ module.exports = {
     extend: {
       colors: {
         'primary-color': '#000080'
+      width: {
+        224: '56rem'
+      },
+      height: {
+        100: '25rem'
       }
     }
   },
